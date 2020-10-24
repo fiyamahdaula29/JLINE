@@ -1,0 +1,499 @@
+.topnav {
+    overflow: hidden;
+    position: relative;
+}
+
+.nav #myLinks {
+    display: none;
+}
+
+.topnav a {
+    color: whitesmoke;
+    padding: 8px 10px;
+    text-decoration: none;
+    font-size: 15px;
+    display: block;
+}
+
+.topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    color: white;
+}
+
+.active {
+    color: white;
+}
+
+#bagian1 .pesawat {
+    background-image: url(images/pesawat.png);
+    Padding-top: 13rem;
+    background-position: center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: white; 
+}
+
+#bagian3 .bg3 {
+    font-family: 'Crimson Text', serif;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    position: relative;
+    justify-items: center;
+    align-self: center;
+    height: 45vh;
+}
+
+.garis {
+    position: absolute;
+    z-index: 2;
+    font-size: 35px;
+    margin-top: -28px;
+    right: 50%;
+}
+
+
+.text {
+    padding: 5rem;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 100%;
+    width: 70%;
+    margin: 2em auto;
+    background: url("images/bg1.png");
+    background-size: cover;
+    color: #ffffff;
+}
+
+#pojok {
+    position: absolute;
+    right: 20%;
+    z-index: 2;
+}
+
+#pojok a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#bagian4 .bg4 {
+    font-family: 'Crimson Text', serif;
+    margin-top: 100px;
+    position: relative;
+    justify-items: center;
+    align-self: center;
+    height: 90vh;
+}
+
+.bgg {
+    position: absolute;
+    top:25%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    justify-content: center;
+    align-self: center;
+    height: 50%;
+    width: 70%;
+    margin: 2em auto;
+    background: #e5e5e5;
+    z-index: 1;
+}
+
+.bg4 img {
+    position: absolute;
+    z-index: 2;
+    width: 65%;
+}
+
+.bg4 h1 {
+    letter-spacing: 3px;
+    font-size: 70px;
+    top: 24%;
+    right: 6%;
+    color: #013e8d;
+    position: absolute;
+    z-index: 3;
+}
+
+h1#abc {
+    letter-spacing: 3px;
+    font-size: 70px;
+    top: 37%;
+    right: 11%;
+    color: #013e8d;
+    position: absolute;
+    z-index: 3;
+}
+
+.bg4 .satu {
+    background: #002554;
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    color: #ffffff;
+    z-index: 4;
+    padding: 20px 30px;
+}
+
+.ab {
+    padding-right: 180px;
+}
+
+.bg4 .dua {
+    background: #002554;
+    position: absolute;
+    top: 76%;
+    left: 50%;
+    color: #ffffff;
+    z-index: 4;
+    padding: 20px 30px;
+}
+
+#bagian5 .bg5 {
+    font-family: 'Crimson Text', serif;
+    position: relative;
+    justify-items: center;
+    align-self: center;
+    height: 90vh;
+}
+
+.bg5 img{
+    position: absolute;
+    z-index: 2;
+    width: 65%;
+    right: 0;
+}
+
+.bg5 h1{
+    letter-spacing: 3px;
+    font-size: 70px;
+    top: 24%;
+    left: 7%;
+    color: #013e8d;
+    position: absolute;
+    z-index: 3;
+}
+
+.bg5 .satu{
+    background: #002554;
+    position: absolute;
+    top: 62%;
+    right: 50%;
+    color: #ffffff;
+    z-index: 4;
+    padding: 20px 30px;
+}
+
+#bagian6 .b6 {
+    font-family: 'Crimson Text', serif;
+    position: relative;
+    justify-items: center;
+    align-self: center;
+    height: 90vh;
+    margin-top: 50px;
+}
+
+.b6 a {
+    text-decoration: none;
+    color: #013e8d;
+}
+
+.bg6 {
+    position: absolute;
+    top: 30px;
+    justify-content: center;
+    align-self: center;
+    height: 70%;
+    width: 100%;
+    margin: 2em auto;
+    background: #d3d4d9;
+    z-index: 1;
+}
+
+.atas {
+    position: relative;
+    top: -100px;
+}
+
+.marg {
+
+    left: 15%;
+}
+
+.satu {
+    color: #666666;
+    margin-bottom: 40px;
+}
+
+.dua {
+    font-weight: 50vh;
+    font-size: 22px;
+    color: #333333;
+}
+
+.tiga {
+    margin-top: -15px;
+    font-weight: 50vh;
+    font-size: 22px;
+    color: #333333;
+}
+
+.b6 h1 {
+    letter-spacing: 3px;
+    font-size: 70px;
+    margin-top: 55px;
+    color: #013e8d;
+    display: flex;
+    z-index: 3;
+}
+
+.abc1 {
+    margin-top: 55px;
+    background: #ffffff;
+    color: #013e8d;
+    width: 70%;
+    padding: 20px 30px;
+}
+
+.abc2 {
+    margin-top: 90px;
+    background: #ffffff;
+    color: #013e8d;
+    width: 70%;
+    padding: 20px 30px;
+}
+
+.ab {
+    padding-right: 220px;
+}
+
+.bg img {
+    width: 70%;
+}
+
+#bagian7 .bg7 {
+    font-family: 'Crimson Text', serif;
+    height: 109vh;
+    background-position: 50% 30%;
+    background: url("images/f0.png");
+    background-size: 100%;
+}
+
+.huft {
+    display: flex;
+    flex-direction: row;
+}
+
+.bg7 .satu {
+    margin-left: 32%;
+}
+
+.bg7 .hm {
+    margin-top: 5%;
+}
+
+.bg7 .hm2 {
+    margin-top: 6%;
+}
+
+.kotak {
+    position: relative;
+    width: 460px;
+    height: 200px;
+    background: #002554;
+}
+
+.kotak .box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.kotak .box img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.3s;
+}
+
+.kotak .capt {
+    position: absolute;
+    left: 0;
+    bottom: -60px;
+    width: 100%;
+    width: 100%;
+    height: 60px;
+    background: #ffffff;
+}
+
+.capt p {
+    width: 100%;
+    padding: 20px 30px;
+}
+
+.capt span {
+    color: #333333;
+    font-weight: bold;
+}
+
+.capt a {
+    text-decoration: none;
+    color: #013e8d;
+}
+
+.ab1 {
+    padding-right: 210px;
+}
+
+.ab2 {
+    padding-right: 215px;
+}
+
+#bagian8 .bg8 {
+    font-family: 'Crimson Text', serif;
+    position: relative;
+    justify-items: center;
+    align-self: center;
+    height: 100vh;
+    margin-top: 50px;
+}
+
+.bg8 h1 {
+    color: #013e8d;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 36pt;
+}
+
+.bg8 .abc {
+    letter-spacing: 3pt;
+    font-size: 11pt;
+    align-items: center;
+    text-align: center;
+    color: #666666;
+}
+
+.bg8 .container-deck {
+    padding: 0 10%;
+    margin-top: 5%;
+}
+
+.card {
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 0px;
+    border: none;
+}
+
+.label-news {
+    color: #013e8d;
+    font-weight: bold;
+    font-size: 13pt;
+}
+
+.label-date {
+    color: #666666;
+    font-size: 10pt;
+}
+
+.btn-modif5 {
+    font-family: 'Montserrat', sans-serif;
+    border: 1px solid #999999;
+}
+
+#bagian9 .bg9 {
+    font-family: 'Crimson Text', serif;
+    position: relative;
+    justify-items: center;
+    align-self: center;
+    height: 100vh;
+}
+
+.bg9 h1 {
+    color: #013e8d;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 36pt;
+}
+
+.bg9 .fa-blue {
+    color: #013e8d;
+}
+
+.bg9 .abc {
+    letter-spacing: 3pt;
+    font-size: 11pt;
+    align-items: center;
+    text-align: center;
+    color: #666666;
+}
+
+.bg9 .container-deck {
+    padding: 0 20%;
+    margin-top: 5%;
+}
+
+.bg9 .img-footer {
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+}
+
+.bg9 .card-text {
+    font-size: 15pt;
+}
+
+.bg9 .card-mp {
+    margin-top: 20%;
+    padding-bottom: 20%;
+    font-weight: bold;
+    letter-spacing: 3pt;
+}
+
+.bg9 .card {
+    border-top: 5px solid #013e8d;
+}
+
+.abs-btn {
+    position: absolute;
+    z-index: 5;
+    left: 50%;
+}
+
+.btn-footer {
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #032552;
+    position: relative;
+    left: -50%;
+    margin-top: 35%;
+    padding: 15px 80px;
+}
+
+.footer {
+    background: #013e8d;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+}
